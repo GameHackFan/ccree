@@ -1,0 +1,96 @@
+Masker:           0D, 0E, 0F
+Wrestler:         12, 14
+Kniver:           11, 15
+Fat:              13, 17
+Samurai:          18, (1A, 1B, 1C, 1F)
+Z:                04, 0C
+Girl:             16, 1D
+Mardia:           13, 17
+Ninja:            1A, 1B, 1C, 0C
+Robot (Mech):     0D, 0E, 0F, 19
+
+
+Doug:             18, 1F
+Shtron:           1E, 1F
+Yamato:           1F
+Monster:          13, 17, 1F
+Scientist:        1F
+Blood:            1F (0D, 0E, 0F)
+Doppel Normal:    13, 17, 1F
+Scumocide:        18, 1A, 1F
+
+
+Wooden Barrel:    04, 05, 0C
+Metal Barrel:     04
+Chest:            05
+Metal Case:       04, 05
+
+
+Pistol:           08, 09, 0A, 0B, 11
+Laser Pistol:     08, 09, 0A, 0B
+Dizzy Gun:        08, 09, 0A, 0B
+Rocket Launcher:  0B
+M4A1:             08, 09, 0A, 0B, 13, 17
+Sledgehammer:     08, 09, 0A, 0B
+Shuriken:         08, 09, 0A, 0B
+
+
+Guitar:           04,
+Keyboard:         04, 13
+Carol Picture:    0D, 0E, 0F
+Coin:             05, 06, 07, 
+Saxophone:        06
+Teddy Bear:       04
+Gold:             06, 07
+Planet Picture:   0D, 0E, 0F
+Haggar Sculpture: 04, 05, 0C   
+
+
+Chocolate:        04 
+Coffee:           0C
+Lemon:            13, 17
+Cherry:           08, 09, 0A, 0B
+Ice Cream:        04
+Barbecue:         04
+Sandwich:         14
+Tendon:           06
+Tendon Bowl:      0B
+
+
+Dynamic Palletes (When brenda is added, ninjas are added)
+
+1A:   Doug? (1A, 1B, 1C), Manhole Cover (1D)
+1x:   1A, 1B, 1C can be replaced in all areas.
+
+2A:   Ninjas (1A, 1B, 1C), Carol (1D)
+2B:   Ninjas (1A, 1B, 1C), Carol (1D)
+
+3A:   Ninjas (1A, 1B, 1C), Carol (1D)
+3B:   Ninjas (1A, 1B, 1C), Carol (1D)
+3C:   Ninjas (1A, 1B, 1C), Carol (1D)
+
+4A:   Ninjas (1A, 1B), Unknown (1C), Manhole Cover (1D)
+4B:   Ninjas (1A, 1B), Unknown (1C), Manhole Cover (1D)
+4C:   Ninjas (1A, 1B), Unknown (1C), Manhole Cover (1D)
+4D:   Ninjas (1A, 1B), Unknown (1C), Manhole Cover (1D)
+4x:   1C and 1D can be replaced in all areas.
+
+5A:   Ninjas (1A, 1B, 1C), Unknown (1D)
+5B:   Ninjas (1A, 1B, 1C), Unknown (1D)
+5x:   1D can be replaced in all areas.
+
+6A:   Ninjas (1A, 1B), Manhole Cover (1C), Carol (1D)
+6B:   Ninjas (1A, 1B), Manhole Cover (1C), Carol (1D)
+
+7A:   Ninjas (1A, 1B, 1C), Blood's Table Objects (1D)
+7B:   Ninjas (1A, 1B, 1C), Blood's Table Objects (1D)
+7C:   Ninjas (1A, 1B, 1C), Blood's Table Objects (1D)
+7D:   Ninjas (1A, 1B, 1C), Blood's Table Objects (1D)
+7x:   1D can be replaced in 7A, 7C, 7D.
+
+8A:   Doppel (1A, 1B, 1C), Carol (1D)
+8B:   Doppel (1A, 1B, 1C), Carol (1D)
+8x:   1A, 1B, 1C can be replaced in 8A.
+
+9A:   Ninjas (1A, 1B, 1C), Carol (1D)
+9B:   Scumocide (1A, 1B), Ninjas (1C), Carol (1D)

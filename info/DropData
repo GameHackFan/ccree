@@ -1,0 +1,95 @@
+00: Barbecue
+02: Tendon
+04: Barbecue 8/16, Tendon 8/16
+06: Sandwich 8/16, Chocolate 4/16, Coffee 4/16
+08: Chocolate 8/16, Coffee 8/16
+0A: Chocolate 4/16, Coffee 4/16, Cherry 4/16, Lemon 4/16
+0C: Cherry 8/16, Lemon 8/16
+0E: Barbecue 3/16, Tendon 3/16, Sandwich 3/16, Chocolate 3/16, Coffee 3/16, Nothing 1/16
+10: Barbecue 2/16, Tendon 2/16, Sandwich 2/16, Chocolate 2/16, 
+    Coffee 2/16, Lemon 2/16, Cherry 2/16, Nothing 2/16
+12: Coin 8/16, Gold 8/16
+14: Haggar 8/16, Coin 8/16
+16: Haggar 1/16, Gold 3/16, Teddy Bear 3/16, Coin 3/16, Saxophone 3/16, Guitar 3/16
+18: Pistol 3/16, M16 3/16, Paralyzer 2/16, Laser Gun 2/16, Rocket Launcher 2/16,
+    Shuriken 2/16, Hammer 2/16
+1A: Pistol 6/16, M16 5/16, Rocket Launcher 5/16
+1C: Laser Gun 8/16, Rocket Launcher 8/16
+1E: Rocket Launcher
+20: Paralyzer 4/16, Laser Gun 4/16, Shuriken 4/16, Hammer 4/16
+22: Barbecue 1/16, Tendon 1/16, Sandwich 1/16, Chocolate 1/16, Coffee 1/16, Lemon 1/16,
+    Cherry 1/16, Haggar 1/16, Gold 1/16, Teddy Bear 1/16, Coin 1/16, Saxophone 1/16,
+    Guitar 1/16, Laser Gun 1/16, Rocket Launcher 1/16, Nothing 1/16
+
+
+24: Nothing
+
+26: Barbecue 6/16, Tendon 5/16, Sandwich 5/16
+28: Chocolate 6/16, Coffee 5/16, Ice Cream 5/16
+2A: Barbecue 2/16, Tendon 2/16, Sandwich 2/16, Chocolate 2/16, Coffee 2/16,
+    Ice Cream 2/16, Cherry 2/16, Lemon 2/16
+2C: Haggar 2/16, Picture (Carol) 2/16, Picture (Alien Planet) 2/16, Gold 2/16,
+    Saxophone 2/16, Guitar 2/16, Teddy Bear 2/16, Coin 2/16
+2E: Pistol 2/16, M16 2/16, Rocket Launcher 3/16, Paralyzer 2/16,
+    Shuriken 2/16, Laser Gun 2/16, Hammer 3/16
+
+30: Barbecue
+32: Tendon
+34: Sandwich
+36: Chocolate
+38: Coffee
+3A: Ice Cream
+3C: Cherry
+3E: Lemon
+
+40: Haggar
+42: Picture (Carol)
+44: Picture (Alien Planet)
+46: Gold
+48: Saxophone
+4A: Guitar
+4C: Teddy Bear
+4E: Coin
+
+50: Pistol
+52: M16
+54: Rocket Launcher
+56: Paralyzer
+58: Shuriken
+5A: Laser Gun
+5C: Hammer
+
+5E: Nothing
+
+
+
+
+
+
+Item ID List
+
+00: Pistol
+04: M16
+08: Rocket Launcher
+0C: Paralyzer
+0E: Shuriken
+10: Laser Gun
+12: Hammer
+
+20: Barbecue
+22: Tendon
+24: Sandwich
+26: Chocolate
+28: Coffee
+2A: Lemon
+2C: Cherry
+3E: Ice Cream
+
+2E: Haggar
+30: Picture (Carol)
+32: Picture (Alien Planet)
+34: Gold
+36: Saxophone
+38: Guitar
+3A: Teddy Bear
+3C: Coin

@@ -1,0 +1,45 @@
+FFA994:         P1 Memory Region
+FFAA94:         P2 Memory Region
+FFAB94:         P3 Memory Region
+FFAC94:         P4 Memory Region
+
+xxxx22:         Character pallete ID
+xxxxE8.B:       Character Lives
+xxxx18.L:       Character Action Data Address
+
+
+FFCA14:         enemy, but which?
+FFCAD4:         enemy, but which?
+
+xxxxxx-FFCAD4:  Enemy Memory Region Range
+xxxx0A:         Position X
+xxxx0E:         Elevation
+xxxx12:         Position Y
+xxxx23:         Pallete ID.
+xxxx3B.B:       Pallete ID.
+xxxx5A:         Orientation, can be used to change pallete ID.
+xxxx3C:         HP ?
+xxxx3E:         HP ?
+
+
+
+
+Player Empty Region
+
+xxxxD1.B:      ?
+xxxxD2.B:      ?
+xxxxD6.W:      ?
+xxxxDC.B:      ?
+xxxxE4.W:      It is used in an unknown way.
+xxxxE6.W:      It is used in an unknown way.
+xxxxEC.W:      Used when you die a continue
+
+
+
+
+Enemy
+
+xxxx34.L: Character pointer.
+xxxx38.B: Character ID (Doppel)
+
+Doppel: 79E96 ?

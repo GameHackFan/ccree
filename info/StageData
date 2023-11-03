@@ -1,0 +1,101 @@
+FFEC6A.B:   Character Available Slots
+FFE99E.W:   Camera position.
+
+
+003676:     Check if there is an empty slot and set the
+            registers and memory values necessary to
+            spawn the object / enemy.
+
+0A811C:     Code responsible to spawn enemies (A8154).
+0A8156:     Code responsible to spawn enemies (A8186).
+          
+
+
+
+Stage 1 Spawn Code
+
+A16D8:    000
+A17D2:    300
+A175A:    320
+A170C:    350
+A1BE8:    3E0
+A1B98:    560
+
+
+Stage 8 Spawn Code
+
+A6B00:    Pointer to the first enemy of the stage enemy list (A6B02).
+A6B82:    EG 1,         0
+A6BA2:    LEG 1,        2
+A6BDE:    EG 2,         4
+A6C1A:    LEG 2,        6
+A6C3C:    EG 3,         8
+A6C6A:    LEG 3         A
+A6CEC:    LEG 4         12
+A6D28:    Area End      14
+
+
+
+
+A7A3A:    LEG 1         2
+A7A76:    EG 2          4
+
+
+Stage 9 Spawn Code
+
+A799C:    Pointer to the first enemy of the stage enemy list (A79CE).
+A79F4:    EG 1, 120           0
+A7A3A:    LEG 1               2
+A7A76:    EG 2                4
+A7AB2:    LEG 2               8
+A7AF6:    Disable it.         ?
+A7B0A:    LEG 3               A
+
+
+A7B50:    Disable it.
+A7B64:    LEG 3               C
+A7BA0:                        E
+
+A7BFA:    
+A7C3A:    Ignore
+A7C4C:    
+A7C84:    Ignore
+A7BDC:    End of 2nd lock?
+
+
+A7C9A:    Pointer to the first enemy of the 2nd enemy group (A7CAA).
+A7CE0:    
+A7D06:    Ignore this one.
+A7D1C:    
+
+
+A7DAC:    
+A7DD2:    
+
+
+A7E22:    Ignore this one
+
+
+
+
+
+
+
+
+
+
+
+
+Stage Scopes (Hex Data)
+
+1-1:    
+1-1:    
+1-1:    
+1-1:    
+1-1:    
+
+9-S1:   100-190
+9-S2:   190-380
+9-S3:   380-6F0
+9-S4:   6F0-740
+9-25:   B28-C68

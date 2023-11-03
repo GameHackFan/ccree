@@ -1,0 +1,31 @@
+0A811C: Spawn Enemies / Objects,  (20 bytes per enemy)
+0A8156: Spawn Enemies / Objects,  (20 bytes per enemy)
+
+0A8188: First Enemy ?
+
+FFE99E: Camera Position (RAM)
+
+
+PXPX ELEL PYPY EAEAEAEA PIPIPIPI I1I1 TTTT I2 RG
+
+
+PX: Position X
+PY: Position Y
+EL: Elevation.
+EA: Enemy Address / Pointer, 4 bytes.
+PI: Posture ID.
+TT: Timer, it affected how long the enemy will take to become active.
+I1: Unknown ID, it affected the character displayed in the HUD after taking damage.
+I2: Unknown ID, it changed to another character for a few sprites.
+TS: Trigger Spawn, 2 bytes.
+RG: Rage, it affects:
+    The amount of damage the enemy does when he hits.
+    How much HP he has.
+    His rage, how aggressive he is.
+    Very sensible value, high values make the enemy kill you with a single hit.
+
+
+
+
+
+Should a new enemy spawn code be written?

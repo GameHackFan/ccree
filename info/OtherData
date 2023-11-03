@@ -1,0 +1,63 @@
+FF91AA: Continue Screen Memory Region
+
+FF9274: Title Screen Timer (Signed value, max is 8000)
+FF9276: Title Screen Exit Timer (Signed value, max is 8000)
+FF9278: Title Screen Exit Flag
+
+
+
+FFA850.B:   P1 Coin Amount
+FFA851.B:   P2 Coin Amount
+FFA852.B:   P3 Coin Amount
+FFA853.B:   P4 Coin Amount
+
+FFA8CE.B:   Stage ID
+FFA8D0.B:   Area ID
+FFF878.W:   Stage Time
+
+FFA8BD.B:   Dip Switch (Lives)
+FFA8BE.B:   Difficulty 1 (0-7)
+FFF82F.B:   Difficulty 2 (0-3)
+
+FF919A.W:   Stage Frames Passed?
+
+
+
+
+
+
+FFF82B.B:   Stage Ending Flag
+FFF84B.B:   Boss Dead Flag?
+FFF86B.B:   Boss Dead Flag?
+
+
+
+
+
+
+
+
+
+15CE:   Loop no coin.
+
+1042:   Grabs the difficulty from the dipswitch (2 bytes).
+42E6:   Limits the difficulty to 7 (3 bytes).
+
+
+0A9400: Code that spawn falling barrels
+
+
+
+
+Store 6 in FF91A4 as word (W not B or L) to disable the extra barrels
+Each line of 0x100 is can have about 10 enemies / objects
+
+
+
+New Postures
+
+20DB8: Samson / Organo    New postures
+29D4A: Marbin             values 6 and 4 at $4 as L
+2D232: Musashi            values as 4 and 2 makes him fall at $4 as L
+?????: Mardia             values as 6 and 4 makes her fall at $4 as L
+327C6: Z                  values 6 and 4 at $4 as L

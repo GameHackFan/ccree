@@ -1,0 +1,51 @@
+00:   N/A
+01:   N/A
+02:   N/A
+03:   N/A
+04:   N/A
+05:   N/A
+06:   Yellow
+07:   N/A
+08:   N/A
+09:   N/A
+0A:   N/A
+0B:   N/A
+0C:   N/A
+0D:   N/A
+0E:   N/A
+0F:   N/A
+10:   N/A
+11:   N/A
+12:   N/A
+13:   N/A
+14:   Light Green
+15:   Dark Green
+16:   Blue
+17:   Dark Blue
+18:   Cyan
+19:   White
+1A:   N/A
+1B:   N/A
+1C:   N/A
+1D:   N/A
+1E:   N/A
+1F:   N/A
+
+
+
+5316
+532E
+
+005AC6 (005AC4):  Starting Health, Beginning of Stage
+0067B6 (0067B4):  Starting Health, Mid Stage
+0170F8 (0170F8):  Starting Health, Death Respawning
+0A95DE (0A95DC):  Food healing / Health Limit, Comparison 1
+0A95F2 (0A95F0):  Food healing / Health Limit, Comparison 2
+0A9606 (0A9604):  Food healing / Health Limit, Comparison 3
+0A961A (0A9618):  Food healing / Health Limit, Comparison 4
+0A962E (0A962C):  Food healing / Health Limit, Comparison 5
+0A9642 (0A9640):  Food healing / Health Limit, Comparison 6
+0A9656 (0A9654):  Food healing / Health Limit, Comparison 7
+0A96AA (0A96A8):  Food healing / Health Limit, Comparison 8
+0A96C0 (0A96BE):  Food healing / Health Limit, Comparison 9
+0A96CA (0A96C8):  Food healing / Health Limit, Set Value
