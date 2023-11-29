@@ -61,6 +61,15 @@ export const featuresPatch =
 
 
 
+    // Improves Default Posture Spawn Range (Musashi)
+    "184864":
+    [
+      "40", "06", "00", "01", "6D", "90", "9E", "69",
+      "40", "0C", "80", "03"
+    ],
+
+
+
     // Sets Item Drop Posture Data (Cyborg)
     "217428":
     [
@@ -95,34 +104,98 @@ export const featuresPatch =
 
 
 
+    // Improves Walking Posture Spawn Range (Carol / Brenda)
+    "225592":
+    [
+      "40", "06", "00", "01", "6D", "90", "9E", "69",
+      "40", "0C", "80", "03"
+    ],
+
+    // Improves Shocking Posture Spawn Range (Carol / Brenda)
+    "225894":
+    [
+      "40", "06", "00", "01", "6D", "90", "9E", "69",
+      "40", "0C", "80", "03"
+    ],
+
+
+
     // Improves How Dr. T. W. Ends Stage 4
     "363796": ["2D", "4A", "4B", "78", "00", "66", "DA", "00"],
 
 
 
-    // Improves Kojiro Teleporting Spawn Range
+    // Improves Default Posture Spawn Range (Wooky)
+    "375956":
+    [
+      "40", "06", "00", "01", "6D", "90", "9E", "69",
+      "40", "0C", "80", "03"
+    ],
+
+
+
+    // Improves Default Posture Spawn Range (Eddy)
+    "400702":
+    [
+      "40", "06", "00", "01", "6D", "90", "9E", "69",
+      "40", "0C", "80", "03"
+    ],
+
+
+
+    // Improves Default Spawn Range (Dick)
+    "417130":
+    [
+      "40", "06", "00", "01", "6D", "90", "9E", "69",
+      "40", "0C", "80", "03"
+    ],
+
+
+
+    // Improves Default Posture Spawn Range (Kojiro)
+    "444418":
+    [
+      "40", "06", "00", "01", "6D", "90", "9E", "69",
+      "40", "0C", "80", "03"
+    ],
+
+    // Improves Teleport Posture Spawn Range (Kojiro)
     "445070":
     [
       "40", "06", "00", "01", "6D", "90", "9E", "69",
-      "40", "0C", "80", "02"
+      "40", "0C", "80", "03"
     ],
 
 
 
-    // Improves Hanzo Teleporting Spawn Range
+    // Improves Default Posture Spawn Range (Hanzo)
+    "460236":
+    [
+      "40", "06", "00", "01", "6D", "90", "9E", "69",
+      "40", "0C", "80", "03"
+    ],
+
+    // Improves Teleport Posture Spawn Range (Hanzo)
     "460860":
     [
       "40", "06", "00", "01", "6D", "90", "9E", "69",
-      "40", "0C", "80", "02"
+      "40", "0C", "80", "03"
     ],
 
 
 
-    // Improves Sasuke Teleporting Spawn Range
+    // Improves Default Posture Spawn Range (Sasuke)
+    "475910":
+    [
+      "40", "06", "00", "01", "6D", "90", "9E", "69",
+      "40", "0C", "80", "03"
+    ],
+
+    // Improves Teleport Posture Spawn Range (Sasuke)
     "476534":
     [
       "40", "06", "00", "01", "6D", "90", "9E", "69",
-      "40", "0C", "80", "02"
+      "40", "0C", "80", "03"
     ],
 
 

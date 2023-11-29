@@ -5,8 +5,22 @@ An editor for the game Captain Commando Readjusted (Arcade).
 You can access the editor [here](https://gamehackfan.github.io/ccree/).
 <br/><br/>
 
-Version 0.1:
-- Created the tool with a Level Editor, a Seed Randomizer, a Patch Manager and some other features.
+Version 0.2:
+- Removed CaptreImprovementPatch, not necessary anymore, CAPTRE v1.2 brings the same changes.
+- Updated the editor to work with CAPTRE v1.2 instead of v1.1.
+- Added assembly code to improve Wooky default posture spawn range to avoid softlocks.
+- Added assembly code to improve Eddy default posture spawn range to avoid softlocks.
+- Added assembly code to improve Dick default posture spawn range to avoid softlocks.
+- Added assembly code to improve Kojiro default posture spawn range to avoid softlocks.
+- Added assembly code to improve Hanzo default posture spawn range to avoid softlocks.
+- Added assembly code to improve Sasuke default posture spawn range to avoid softlocks.
+- Added assembly code to improve Musashi default posture spawn range to avoid softlocks.
+- Added assembly code to improve Carol walking posture spawn range to avoid softlocks.
+- Added assembly code to improve Carol shocking posture spawn range to avoid softlocks.
+- Fixed assembly code to improve Kojiro teleport posture spawn range to avoid softlocks.
+- Fixed assembly code to improve Hanzo teleport posture spawn range to avoid softlocks.
+- Fixed assembly code to improve Sasuke teleport posture spawn range to avoid softlocks.
+- Minor changes.
 
 See all changes made [here](https://github.com/GameHackFan/ccree/blob/main/changelog).
 <br/><br/>

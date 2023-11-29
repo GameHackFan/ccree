@@ -3,7 +3,6 @@ import { foodHealImprovementPatch } from "./FoodHealImprovementPatch";
 import { itemDropImprovementPatch } from "./ItemDropImprovementPatch";
 import { randomizerHealth1Patch } from "./RandomizerHealth1Patch";
 import { randomizerHealth2Patch } from "./RandomizerHealth2Patch";
-import { captreImprovementPatch } from "./CaptreImprovementPatch";
 import { deactivateDefaultBossHelperGroupPatch } from
     "./DeactivateDefaultBossHelperGroupPatch";
 
@@ -196,17 +195,6 @@ export const patchMap =
             "possibilities. This patch is used by the Level Editor " +
             "and the Seed Randomizer.",
     patch:  itemDropImprovementPatch,
-    show:   true
-  },
-  captreImprovementPatch:
-  {
-    key:    "captreImprovementPatch",
-    label:  "Captain Commando Readjusted Improvement Patch",
-    text:   "This patch brings improvements to CAPTRE that has the " +
-            "potential to be part of CAPTRE in a future update. " +
-            "This patch is used by the Level Editor and the Seed " +
-            "Randomizer.",
-    patch:  captreImprovementPatch,
     show:   true
   },
   randomizerHealth1Patch:

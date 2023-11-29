@@ -19,7 +19,7 @@ class Footer
   {
     componentService.setController("footer", this);
     this.setViewData = setViewData;
-    this.appVersion = "Version 0.1, \u00A9 2022";
+    this.appVersion = "Version 0.2, \u00A9 2022";
     this.updateZoom();
   }
 }

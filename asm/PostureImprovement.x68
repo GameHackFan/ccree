@@ -43,6 +43,14 @@
   NOP                                   ; No operation, does nothing.
 
 
+; ORG         $2D220                    ; Replaces 2D220 (There is space enough to replace all the code).
+
+                                        ; Block of code improves default posture spawn range (Musashi).
+  ADD.W       #$100, D0                 ; Adds 100 from D0, outside screen tolerance.
+  SUB.W       ($699E, A5), D0           ; Subtracts ($699E + A5) from D0, camera position.
+  CMP.W       #$380, D0                 ; Compares 380 and D0, range to activate the character.
+
+
 ; ORG         $35154                    ; Replaces 35154 (There is space enough to replace all the code).
 
                                         ; Block of code that sets claw posture data (Cyborg).
@@ -66,6 +74,22 @@
 
                                         ; Block of code that fixes falling posture (Carol / Brenda).
   MOVE.W      #$0, ($60, A0)            ; Stores 0 inside ($60 + A0), to ensure falling posture will work properly.
+
+
+; ORG         $37138                    ; Replaces 37138 (There is space enough to replace all the code).
+
+                                        ; Block of code improves walking posture spawn range (Carol / Brenda).
+  ADD.W       #$100, D0                 ; Adds 100 from D0, outside screen tolerance.
+  SUB.W       ($699E, A5), D0           ; Subtracts ($699E + A5) from D0, camera position.
+  CMP.W       #$380, D0                 ; Compares 380 and D0, range to activate the character.
+
+
+; ORG         $37266                    ; Replaces 37266 (There is space enough to replace all the code).
+
+                                        ; Block of code improves shocking posture spawn range (Carol / Brenda).
+  ADD.W       #$100, D0                 ; Adds 100 from D0, outside screen tolerance.
+  SUB.W       ($699E, A5), D0           ; Subtracts ($699E + A5) from D0, camera position.
+  CMP.W       #$380, D0                 ; Compares 380 and D0, range to activate the character.
 
 
 ; ORG         $3727C                    ; Replaces 3727C (There is space enough to replace all the code).
@@ -100,28 +124,76 @@
   BNE         $58DF4                    ; If it is not 0, go to the code that ends the stage.
 
 
-; ORG         $6CA8E                    ; Replaces 6CA8E (There is space enough to replace all the code).
+; ORG         $5BC94                    ; Replaces 5BC94 (There is space enough to replace all the code).
 
-                                        ; Block of code improves Kojiro teleporting posture.
+                                        ; Block of code improves default posture spawn range (Wooky).
   ADD.W       #$100, D0                 ; Adds 100 from D0, outside screen tolerance.
   SUB.W       ($699E, A5), D0           ; Subtracts ($699E + A5) from D0, camera position.
-  CMP.W       #$280, D0                 ; Compares 280 and D0, range to activate the character.
+  CMP.W       #$380, D0                 ; Compares 380 and D0, range to activate the character.
+
+
+; ORG         $61D3E                    ; Replaces 61D3E (There is space enough to replace all the code).
+
+                                        ; Block of code improves default posture spawn range (Eddy).
+  ADD.W       #$100, D0                 ; Adds 100 from D0, outside screen tolerance.
+  SUB.W       ($699E, A5), D0           ; Subtracts ($699E + A5) from D0, camera position.
+  CMP.W       #$380, D0                 ; Compares 380 and D0, range to activate the character.
+
+
+; ORG         $65D6A                    ; Replaces 65D6A (There is space enough to replace all the code).
+
+                                        ; Block of code improves default posture spawn range (Dick).
+  ADD.W       #$100, D0                 ; Adds 100 from D0, outside screen tolerance.
+  SUB.W       ($699E, A5), D0           ; Subtracts ($699E + A5) from D0, camera position.
+  CMP.W       #$380, D0                 ; Compares 380 and D0, range to activate the character.
+
+
+; ORG         $6C802                    ; Replaces 6C802 (There is space enough to replace all the code).
+
+                                        ; Block of code improves default posture spawn range (Kojiro).
+  ADD.W       #$100, D0                 ; Adds 100 from D0, outside screen tolerance.
+  SUB.W       ($699E, A5), D0           ; Subtracts ($699E + A5) from D0, camera position.
+  CMP.W       #$380, D0                 ; Compares 380 and D0, range to activate the character.
+
+
+; ORG         $6CA8E                    ; Replaces 6CA8E (There is space enough to replace all the code).
+
+                                        ; Block of code improves teleport posture spawn range (Kojiro).
+  ADD.W       #$100, D0                 ; Adds 100 from D0, outside screen tolerance.
+  SUB.W       ($699E, A5), D0           ; Subtracts ($699E + A5) from D0, camera position.
+  CMP.W       #$380, D0                 ; Compares 380 and D0, range to activate the character.
+
+
+; ORG         $705CC                    ; Replaces 705CC (There is space enough to replace all the code).
+
+                                        ; Block of code improves default posture spawn range (Hanzo).
+  ADD.W       #$100, D0                 ; Adds 100 from D0, outside screen tolerance.
+  SUB.W       ($699E, A5), D0           ; Subtracts ($699E + A5) from D0, camera position.
+  CMP.W       #$380, D0                 ; Compares 380 and D0, range to activate the character.
 
 
 ; ORG         $7083C                    ; Replaces 7083C (There is space enough to replace all the code).
 
-                                        ; Block of code improves Hanzo teleporting posture.
+                                        ; Block of code improves teleport posture spawn range (Hanzo).
   ADD.W       #$100, D0                 ; Adds 100 from D0, outside screen tolerance.
   SUB.W       ($699E, A5), D0           ; Subtracts ($699E + A5) from D0, camera position.
-  CMP.W       #$280, D0                 ; Compares 280 and D0, range to activate the character.
+  CMP.W       #$380, D0                 ; Compares 380 and D0, range to activate the character.
+
+
+; ORG         $74306                    ; Replaces 74306 (There is space enough to replace all the code).
+
+                                        ; Block of code improves default posture spawn range (Sasuke).
+  ADD.W       #$100, D0                 ; Adds 100 from D0, outside screen tolerance.
+  SUB.W       ($699E, A5), D0           ; Subtracts ($699E + A5) from D0, camera position.
+  CMP.W       #$380, D0                 ; Compares 380 and D0, range to activate the character.
 
 
 ; ORG         $74576                    ; Replaces 74576 (There is space enough to replace all the code).
 
-                                        ; Block of code improves Sasuke teleporting posture.
+                                        ; Block of code improves teleport posture spawn range (Sasuke).
   ADD.W       #$100, D0                 ; Adds 100 from D0, outside screen tolerance.
   SUB.W       ($699E, A5), D0           ; Subtracts ($699E + A5) from D0, camera position.
-  CMP.W       #$280, D0                 ; Compares 280 and D0, range to activate the character.
+  CMP.W       #$380, D0                 ; Compares 380 and D0, range to activate the character.
 
 
 ; ORG         $A0D7A                    ; Replaces A0D7A (There is space enough to replace all the code).
@@ -178,17 +250,26 @@
 ; 0252F6: Adds Support To Custom Postures (Skip / Sonie)
 ; 025332: Fix Falling Posture (Skip / Sonie)
 ; 029D4A: Adds Support To Custom Postures (Marbin)
+; 02D220: Improves Default Posture Spawn Range (Musashi)
 ; 035154: Sets Item Drop Posture Data (Cyborg)
 ; 0351BE: Fixes Claw Posture (Cyborg)
 ; 03707C: Fix Falling Posture (Carol / Brenda)
+; 037138: Improves Walking Posture Spawn Range (Carol / Brenda)
+; 037266: Improves Shocking Posture Spawn Range (Carol / Brenda)
 ; 03727C: Fixes Item Drop Posture (Carol / Brenda)
 ; 0372CC: Sets Shocking Posture Data (Carol / Brenda)
 ; 037300: Fixes Shocking Posture (Carol / Brenda)
 ; 037314: Fixes Shocking Posture (Carol / Brenda)
 ; 058D14: Improves How Dr. T. W. Ends Stage 4
-; 06CA8E: Improves Kojiro Teleporting Spawn Range
-; 07083C: Improves Hanzo Teleporting Spawn Range
-; 074576: Improves Sasuke Teleporting Spawn Range
+; 05BC94: Improves Default Posture Spawn Range (Wooky)
+; 061D3E: Improves Default Posture Spawn Range (Eddy)
+; 065D6A: Improves Default Spawn Range (Dick)
+; 06C802: Improves Default Posture Spawn Range (Kojiro)
+; 06CA8E: Improves Teleport Posture Spawn Range (Kojiro)
+; 0705CC: Improves Default Posture Spawn Range (Hanzo)
+; 07083C: Improves Teleport Posture Spawn Range (Hanzo)
+; 074306: Improves Default Posture Spawn Range (Sasuke)
+; 074576: Improves Teleport Posture Spawn Range (Sasuke)
 ; 0A0D7A: Increases Out Of Screen Despawn Limit (Falling Barrel)
 ; 143700: Sets Blowing Fire Posture Data (Marbin)
 ; 143740: Sets Shocking Posture Data (Carol / Brenda)

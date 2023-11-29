@@ -304,7 +304,6 @@ class RandomizerService
     romService.applyPatch(patchMap.deactivateDefaultBossHelperGroupPatch.patch);
     romService.applyPatch(patchMap.foodHealImprovementPatch.patch);
     romService.applyPatch(patchMap.itemDropImprovementPatch.patch);
-    romService.applyPatch(patchMap.captreImprovementPatch.patch);
     romService.applyPatch(this.getRandomizerHealthPatch());
     romService.applyPatch(this.createRandomizerPatch());
     romService.applyPatch(this.createRandomizerTextPatch());
